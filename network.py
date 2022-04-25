@@ -65,3 +65,4 @@ class Network:
                         self.weights[:, i, j] += delta_weights
 
     def visualise(self):
+        pass
