@@ -64,5 +64,9 @@ class Network:
                                                 x - self.weights[:, i, j])
                         self.weights[:, i, j] += delta_weights
 
+    def cluster(self, data, true_cluster=None):
+        for i in range(len(data)):
+
+
     def visualise(self):
         pass
